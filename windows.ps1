@@ -68,6 +68,7 @@ $wingetPkgs = @(
     @{ Name = "Python"; Id = "Python.Python.3.13" }
     @{ Name = "OnlyOffice"; Id = "ONLYOFFICE.DesktopEditors" }
     @{ Name = "HWMonitor"; Id = "CPUID.HWMonitor" }
+    @{ Name = "Battle.net"; Id = "Blizzard.BattleNet" }
 )
 
 $installResults = @()
