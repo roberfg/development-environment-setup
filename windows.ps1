@@ -31,7 +31,7 @@ if (Test-Path $dotfiles)
 if (-not (Test-Path $dotfiles))
 {
     Write-Host ">>> Clonando dotfiles..." -ForegroundColor Cyan
-    git clone https://github.com/roberfu/dotfiles.git $dotfiles
+    git clone https://github.com/roberfg/dotfiles.git $dotfiles
     if ($LASTEXITCODE -ne 0)
     { exit 1
     }
@@ -53,7 +53,7 @@ $wingetPkgs = @(
     @{ Name = "VSCodium"; Id = "VSCodium.VSCodium" }
     @{ Name = "Wezterm"; Id = "wez.wezterm" }
     # Apps
-    @{ Name = "Brave Browser"; Id = "Brave.Brave" }
+    @{ Name = "Firefox"; Id = "Mozilla.Firefox.es-CL" }
     @{ Name = "qBittorrent"; Id = "qBittorrent.qBittorrent" }
     @{ Name = "ffmpeg"; Id = "Gyan.FFmpeg" }
     @{ Name = "Spotify"; Id = "Spotify.Spotify" }

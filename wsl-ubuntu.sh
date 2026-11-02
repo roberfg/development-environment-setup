@@ -2,7 +2,7 @@
 set -euo pipefail
 trap 'echo "[abort] linea $LINENO" >&2; exit 1' ERR
 
-DOTFILES_REPO="https://github.com/roberfu/dotfiles.git"
+DOTFILES_REPO="https://github.com/roberfg/dotfiles.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 PACKAGES=(stow git curl)
 
