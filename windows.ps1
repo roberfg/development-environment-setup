@@ -39,7 +39,7 @@ if (-not (Test-Path $dotfiles))
 
 $wingetPkgs = @(
     # Sistema / fuentes
-    @{ Name = "Git"; Id = "Git.Git" }
+    @{ Name = "Git"; Id = "Git.Git" } # Gestionado desde WSL
     @{ Name = "JetBrainsMono Nerd Font"; Id = "DEVCOM.JetBrainsMonoNerdFont" }
     @{ Name = "VC++ Redist 2015+ x64"; Id = "Microsoft.VCRedist.2015+.x64" }
     @{ Name = "7-Zip"; Id = "7zip.7zip" }
@@ -69,6 +69,7 @@ $wingetPkgs = @(
     @{ Name = "OnlyOffice"; Id = "ONLYOFFICE.DesktopEditors" }
     @{ Name = "HWMonitor"; Id = "CPUID.HWMonitor" }
     @{ Name = "Battle.net"; Id = "Blizzard.BattleNet" }
+    @{ Name = "Discord"; Id = "Discord.Discord" }
 )
 
 $installResults = @()
